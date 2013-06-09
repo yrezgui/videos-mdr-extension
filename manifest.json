@@ -1,0 +1,20 @@
+{
+	"name": "Videos-MDR.com",
+	"version": "1.0",
+	"icons": {
+		"16": "img/icon-16.png",
+		"48": "img/icon-48.png",
+		"128": "img/icon-128.png"
+	},
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"browser_action": {
+			"default_title": "Partager des vidéos sur Videos-MDR.com",
+			"default_icon": "img/icon-16.png",
+			"default_popup": "popup.html"
+	},
+	"manifest_version": 2
+}
